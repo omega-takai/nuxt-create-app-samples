@@ -46,3 +46,4 @@ yarn create nuxt-app [out-dir]
 - [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 - [Nuxt TypeScript docs](https://typescript.nuxtjs.org/ja/).
 - [Nuxt Community TypeScript Template](https://github.com/nuxt-community/typescript-template).
+- [TypeScript](https://www.typescriptlang.org/).

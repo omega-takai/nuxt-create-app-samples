@@ -1,8 +1,6 @@
 {
   "name": "minimal",
   "version": "1.0.0",
-  "description": "To know the minimum setting",
-  "author": "Tomonari Takai",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -11,7 +9,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6"
   },
   "devDependencies": {}
 }

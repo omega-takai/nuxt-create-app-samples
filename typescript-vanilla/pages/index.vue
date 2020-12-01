@@ -1,17 +1,13 @@
 <template>
   <div class="container">
     <div>
-      <logo />
-      <h1 class="title">
-        typescript-vanilla
-      </h1>
-      <h2 class="subtitle">
-        A basic TypeScript sample
-      </h2>
+      <Logo />
+      <h1 class="title">typescript-vanilla</h1>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
           target="_blank"
+          rel="noopener noreferrer"
           class="button--green"
         >
           Documentation
@@ -19,6 +15,7 @@
         <a
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
+          rel="noopener noreferrer"
           class="button--grey"
         >
           GitHub
@@ -30,13 +27,8 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import Logo from '~/components/Logo.vue'
 
-export default Vue.extend({
-  components: {
-    Logo
-  }
-})
+export default Vue.extend({})
 </script>
 
 <style>

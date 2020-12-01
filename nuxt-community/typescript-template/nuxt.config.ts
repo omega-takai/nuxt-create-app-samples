@@ -1,22 +1,26 @@
-export default {
+import type { NuxtConfig } from '@nuxt/types'
+
+const config: NuxtConfig = {
+  build: {},
+  buildModules: [
+    '@nuxt/typescript-build'
+  ],
+  css: [],
   env: {},
   head: {
-    title: "typescript-template",
+    title: 'nuxt-community/typescript-template',
     meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "Nuxt.js TypeScript project" }
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: 'A boilerplate to start a Nuxt+TS project quickly' }
     ],
-    link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
-    ]
+    link: []
   },
-  loading: { color: "#3B8070" },
-  css: ["~/assets/css/main.css"],
-  build: {},
-  buildModules: ["@nuxt/typescript-build"],
-  modules: [
-    "@nuxtjs/axios",
-  ],
-  axios: {}
+  loading: { color: '#0c64c1' },
+  modules: [],
+  plugins: [
+    '~/plugins/truncate'
+  ]
 }
+
+export default config

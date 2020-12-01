@@ -1,20 +1,21 @@
 <template>
   <div class="container">
     <div>
-      <logo />
-      <h1 class="title">
-        all-in
-      </h1>
-      <h2 class="subtitle">
-        A sample of everything you&#39;d want in a front-end development
-      </h2>
+      <Logo />
+      <h1 class="title">all-in</h1>
       <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
+        <a
+          href="https://nuxtjs.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--green"
+        >
           Documentation
         </a>
         <a
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
+          rel="noopener noreferrer"
           class="button--grey"
         >
           GitHub
@@ -26,13 +27,8 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import Logo from '~/components/Logo.vue'
 
-export default Vue.extend({
-  components: {
-    Logo
-  }
-})
+export default Vue.extend({})
 </script>
 
 <style>

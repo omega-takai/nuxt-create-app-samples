@@ -1,22 +1,23 @@
 {
-  "name": "typescript-template",
-  "description": "Nuxt.js TypeScript project",
-  "version": "2.12.2",
+  "name": "nuxt-community-typescript-template",
+  "description": "A boilerplate to start a Nuxt+TS project quickly",
+  "version": "2.14.7",
   "private": true,
   "dependencies": {
-    "@nuxtjs/axios": "5.9.7",
-    "@nuxt/typescript-runtime": "0.4.5",
-    "nuxt": "2.12.2",
-    "nuxt-property-decorator": "2.5.1",
-    "vuex-class": "0.3.2"
+    "@nuxt/typescript-runtime": "2.0.0",
+    "nuxt": "2.14.7"
   },
   "scripts": {
     "dev": "nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
-    "generate": "nuxt-ts generate"
+    "generate": "nuxt-ts generate",
+    "lint": "eslint --max-warnings 0 --ext .ts,.vue ."
   },
   "devDependencies": {
-    "@nuxt/typescript-build": "0.6.5"
+    "@nuxt/types": "2.14.7",
+    "@nuxt/typescript-build": "2.0.3",
+    "@nuxtjs/eslint-config-typescript": "5.0.0",
+    "eslint": "7.14.0"
   }
 }

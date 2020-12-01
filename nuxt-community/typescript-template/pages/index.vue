@@ -2,7 +2,7 @@
   <main>
     <ul>
       <li
-        v-for="page in ['Options API', 'Class API', 'Composition API']"
+        v-for="page in ['Options API', ]"
         :key="page"
       >
         <nuxt-link :to="`/${page.toLowerCase().split(' ').join('-')}`">
